@@ -26,7 +26,7 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route path="/properties" element={<AllProperties />} /> {/* ✅ Enabled */}
+        <Route path="/properties" element={<AllProperties />} /> 
         <Route path="/property/:id" element={<PropertyDetail />} />
       </Routes>
     </BrowserRouter>
